@@ -1,0 +1,186 @@
+/* style général */
+body {
+  background-color: white;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #62b1ff;
+}
+
+a:hover {
+  color: #b994f8;
+  text-decoration: none;
+
+}
+
+.mynavbar {
+  z-index: 100;
+  background-color: rgb(77, 46, 15);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 1px 5px rgba(0,0,0, 0.4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo-small {
+  height: 90px;
+}
+
+.navbar-links {
+  display: inline-block;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: rgb(184, 147, 43);
+  opacity: 0.6;
+  margin-right: 20px;
+}
+
+.navbar-links a:hover {
+  color: white;
+  opacity: 1;
+  text-decoration : none;
+}
+
+.navbar-dropdown img {
+  opacity: 1;  
+}
+
+.navbar-dropdown img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.navbar-dropdown {
+ display: inline-block; 
+}
+
+.navbar-hamburger {
+  color: rgb(184, 147, 43);
+  opacity: 0.6;
+}
+
+.navbar-hamburger:hover {
+  color: rgb(184, 147, 43);
+  opacity: 1;
+}
+
+.navbar-hamburger a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+  opacity: 0.6;
+  margin-right: 20px;
+}
+
+.navbar-hamburger a:hover {
+  color: rgb(184, 147, 43);
+  opacity: 1;
+  text-decoration : none;
+}
+
+}
+
+/* banner */
+.banner {
+  background-image: url("images/baniere.jpeg");
+    text-align: left;
+    background-size: cover;
+    padding: 20px
+}
+
+.banner-content {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.banner h1 {
+  color: rgb(77, 46, 15);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  letter-spacing: 1.2px;
+  font-size: 40px;
+}
+
+.banner em {
+  color: rgb(77, 46, 15);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  letter-spacing: 1.1px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* section 4 colonnes */
+
+#info {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#info h2 {
+  color: rgb(77, 46, 15);
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+#info p {
+  font-size: 14px;
+  margin-top: 30px;
+  color: #9999a5;
+  max-width: 250px;
+}
+
+.concept-picture {
+  height: 120px;
+  max-width: 120px;
+}
+
+.concept-card {
+  padding: 40px;
+}
+
+/* inscription newsletter */
+
+#newsletter {
+  background-color: #bbbbbb;
+  min-height: 150px;
+}
+
+/* footer*/
+
+.footer {
+  background-color: #252525;
+  color: white;
+  height: 200px;
+  padding: 50px;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color:rgb(77, 46, 15);
+  border-color:rgb(184, 147, 43);
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: rgb(77, 46, 15);
+}
